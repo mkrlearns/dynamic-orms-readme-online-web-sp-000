@@ -14,4 +14,4 @@ song.save
 
 album = DB[:conn].execute("SELECT * FROM songs")
 puts album
-puts album[0]["name"]
+puts album[0]["id"]
