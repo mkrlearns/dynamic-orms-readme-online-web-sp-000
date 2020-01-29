@@ -12,4 +12,4 @@ song.save
 
 puts DB[:conn].execute("SELECT * FROM songs")
 test = DB[:conn].execute("SELECT * FROM songs")
-puts test[:id]
+puts test[:'id']
