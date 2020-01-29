@@ -11,6 +11,7 @@ puts "song album: " + song.album
 song.save
 
 # puts DB[:conn].execute("SELECT * FROM songs")
-puts test
+
 test = DB[:conn].execute("SELECT * FROM songs")
+puts test
 puts test["name"]
